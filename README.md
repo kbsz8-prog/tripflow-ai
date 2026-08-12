@@ -1,337 +1,229 @@
-# 🌍 TripFlow AI
+# TripFlow AI
 
-> **Plan Less. Experience More.**
+> **Your AI Travel Companion — a Travel Jarvis that adapts as you go.**
 
-> 🚧 **Project Status**
->
-> TripFlow AI is currently under active development.
-> The first MVP focuses on intelligent itinerary generation and route optimization.
+TripFlow AI is an AI-powered travel companion designed for travelers who don't want to plan every minute of their trip.
 
----
+Instead of generating a fixed itinerary and expecting the traveler to follow it, TripFlow understands the traveler's context and continuously helps answer one question:
 
-# Why TripFlow?
-
-TripFlow started from a real travel problem.
-
-While planning a family trip to Jeju Island, I found myself constantly switching between airline websites, hotel reservations, Google Maps, weather forecasts, restaurant reviews, blogs, and opening hours.
-
-Creating a good itinerary required hours of manual work.
-
-I kept asking myself:
-
-> **"Why isn't there an AI that can do all of this for me?"**
-
-That question became the beginning of TripFlow.
+> **"What should I do next?"**
 
 ---
 
-# What is TripFlow?
+## Why TripFlow?
 
-TripFlow AI is an intelligent travel copilot that helps travelers plan smarter and experience more.
+Real trips rarely follow the itinerary.
 
-Instead of spending hours switching between maps, hotel websites, weather apps, blogs, and restaurant reviews, TripFlow automatically creates optimized travel itineraries based on:
+You wake up late.
 
-- Accommodations
-- Destinations
+A restaurant has a long wait.
+
+The weather changes.
+
+You spend more time at a place than expected.
+
+Your kids get tired.
+
+You discover somewhere interesting.
+
+You simply change your mind.
+
+Your original plan becomes less relevant.
+
+TripFlow is designed for exactly this kind of travel.
+
+> **The plan should adapt to the traveler — not the traveler to the plan.**
+
+---
+
+## What TripFlow Does
+
+### Before the Trip
+
+You provide the basics:
+
+- Destination
+- Accommodation
+- Places you want to visit
+- Restaurants and shops you're interested in
+- Travel companions
+- Transportation preferences
 - Travel style
+
+TripFlow builds an understanding of your trip.
+
+You don't need to create a perfect schedule.
+
+### During the Trip
+
+TripFlow continuously considers:
+
+- Current location
+- Current time
 - Weather
 - Opening hours
 - Waiting times
-- Real-time conditions
+- Transportation
+- Travel distance
+- Remaining time
+- Travel companions
+- User preferences
+- Previous decisions
 
-Whether you're a meticulous planner or someone who prefers to explore spontaneously, TripFlow adapts to your travel style and helps you enjoy your trip—not plan it.
-
----
-
-# The Problem
-
-Planning a trip today usually means using many different apps.
-
-Typical travel planning includes:
-
-- ✈️ Flight booking
-- 🏨 Hotel booking
-- 🚗 Rental car reservation
-- 🍽 Restaurant search
-- ☕ Cafe search
-- 📍 Google Maps
-- 🌦 Weather forecast
-- 🕒 Opening hours
-- ⏳ Waiting times
-- 📸 Travel blogs
-- 💬 AI assistants
-
-Too much information.
-
-Too many decisions.
-
-Too many browser tabs.
-
-TripFlow brings everything together into one intelligent workflow.
+It then recommends what makes the most sense **right now**.
 
 ---
 
-# Vision
+## Example
 
-Travel planning should take minutes—not hours.
+Instead of:
 
-TripFlow helps travelers make better decisions before and during their journey by intelligently optimizing routes, schedules, and recommendations.
+> "Here is your 7-day itinerary."
 
-Our long-term vision is to build the world's smartest AI Travel Copilot.
+TripFlow aims to provide:
 
-Not just an itinerary planner.
+> "You're near Central Park and have about three hours before dinner. The weather is good, and two places you saved are nearby. The museum currently has a short wait. Would you like to go there?"
 
-A real travel companion.
+The goal is not to control the trip.
 
----
-
-# Core Features
-
-## 🗺 Smart Itinerary Generation
-
-Automatically generate optimized travel itineraries.
+The goal is to help the traveler make better decisions with less effort.
 
 ---
 
-## 🏨 Multiple Accommodation Support
+## Designed for Flexible Travelers
 
-Perfect for trips that include multiple hotels or accommodations.
+TripFlow is built for travelers who prefer:
 
-TripFlow automatically adjusts routes based on where you're staying each day.
+- Less planning
+- More freedom
+- Spontaneous decisions
+- Discovering new places
+- Changing plans during the trip
 
----
+TripFlow should work across different destinations and transportation methods:
 
-## 🚗 Intelligent Route Optimization
-
-Optimize travel plans using:
-
-- Distance
-- Travel time
-- Accommodation location
-- Weather
-- Opening hours
-- Waiting time
-- Travel style
-
----
-
-## 👨‍👩‍👧 Personalized Travel Experience
-
-Different travelers need different itineraries.
-
-Supported travel styles include:
-
-- Family
-- Couple
-- Solo
-- Friends
-- Parents
-- Business
-
-TripFlow creates different schedules for different travelers.
+- Jeju
+- New York
+- Paris
+- Tokyo
+- European cities
+- Road trips
+- Public transportation
+- Walking-heavy city travel
 
 ---
 
-## 🌤 Dynamic Travel Assistant
+## Product Philosophy
 
-Trips rarely go exactly as planned.
+### Less Planning
 
-TripFlow continuously adapts when situations change.
+Reduce the amount of work required before a trip.
 
-Examples:
+### More Freedom
 
-- Rain forecast
-- Long restaurant waiting time
-- Closed attraction
-- Heavy traffic
-- Delayed schedule
+Make changing plans easy.
 
-Instead of simply notifying you,
+### More Discovery
 
-TripFlow recommends a better plan.
+Help travelers discover places they did not originally plan to visit.
 
----
+### Continuous Adaptation
 
-# Planner or Explorer?
+Continuously adjust recommendations as circumstances change.
 
-Some people carefully plan every minute.
+### Context Over Schedule
 
-Others only book a hotel and decide everything on the day.
+The current travel context matters more than a fixed itinerary.
 
-TripFlow supports both.
+### Traveler First
 
-For planners,
-
-TripFlow saves hours of planning.
-
-For explorers,
-
-TripFlow helps discover amazing places without endless searching.
-
-No matter your travel style,
-
-TripFlow adapts to you.
+The AI adapts to the traveler, not the other way around.
 
 ---
 
-# Product Roadmap
+## Long-Term Vision
 
-## Phase 1 (Current)
-
-- ✅ Product Vision
-- ✅ Requirements
-- ✅ Feature Definition
-- ✅ UI / UX Design
-- 🚧 Landing Page
-- 🚧 Trip Creation
-- 🚧 Interactive Map
-
----
-
-## Phase 2
-
-- AI Route Optimization
-- Google Maps Integration
-- Weather Integration
-- Multi-Day Trip Planning
-- Multiple Accommodation Support
-
----
-
-## Phase 3
-
-- Flight Booking
-- Hotel Booking
-- Rental Car Booking
-- Budget Optimization
-- AI Recommendations
-- Shared Itinerary
-
----
-
-## Phase 4
-
-The Ultimate AI Travel Copilot.
-
-TripFlow becomes a real-time travel assistant that continuously helps travelers make smarter decisions throughout every journey.
-
----
-
-# Technology Stack
-
-## Frontend
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-
-## Backend (Planned)
-
-- Supabase
-- PostgreSQL
-
-## AI
-
-- OpenAI API
-
-## External Services
-
-- Google Maps API
-- Weather API
-- Waiting Time API
-
----
-
-# Project Structure
+TripFlow evolves through four stages:
 
 ```text
-tripflow-ai/
-│
-├── docs/
-│   ├── Vision.md
-│   ├── Requirements.md
-│   ├── Features.md
-│   ├── UI_UX.md
-│   └── DesignPrinciples.md
-│
-├── apps/
-│   └── web/
-│
-├── CLAUDE.md
-│
-├── README.md
-│
-└── LICENSE
-```
+Planner
+   ↓
+Assistant
+   ↓
+Travel Agent
+   ↓
+Travel Jarvis
+Planner
 
----
+Helps travelers organize destinations, accommodations, places, and basic travel information.
 
-# Documentation
+Assistant
 
-The project documentation is located in the `docs/` directory.
+Understands natural language and provides contextual recommendations.
 
-- Vision
-- Requirements
-- Features
-- UI / UX
-- Design Principles
+Travel Agent
 
-These documents are the single source of truth for the project.
+Actively manages the evolving travel context and helps travelers make decisions.
 
----
+Travel Jarvis
 
-# Design Philosophy
+Understands the individual traveler over time and provides highly personalized, proactive assistance.
 
-TripFlow is not just another itinerary planner.
+The ultimate goal is not to plan the perfect trip.
+It is to make the trip better as it happens.
 
-It is an intelligent decision-making assistant.
+Core Experience
 
-Our philosophy is simple.
+TripFlow is built around a continuous loop:
 
-> Ask users only a few questions.
+Traveler
+   ↓
+Current Context
+   ↓
+Intent Understanding
+   ↓
+AI Agent
+   ↓
+Tools
+   ↓
+Recommendation
+   ↓
+Traveler Decision
+   ↓
+Updated Context
+   ↺
 
-TripFlow handles everything else.
+The trip is not a fixed sequence of activities.
 
-The interface should feel effortless.
+It is a continuously evolving context.
 
-The technology should stay invisible.
+TripFlow adapts as the traveler moves, decides, discovers, and changes plans.
 
-The experience should feel magical.
+Product Direction
 
----
+The core product is not an itinerary generator.
 
-# Long-Term Vision
+It is a context-aware AI travel agent.
 
-Today, TripFlow helps travelers plan better.
+The initial product will focus on:
 
-Tomorrow, it will help travelers travel smarter.
+Travel Context
+Intent Understanding
+Dynamic Recommendations
+Route & Transportation Intelligence
+Continuous Re-planning
+AI Agent Architecture
+Tech Stack
+Next.js
+React
+TypeScript
+Tailwind CSS
+Google Maps Platform
+Kakao Maps
+AI / LLM
+GitHub
+Project Status
 
-As more people use TripFlow, the platform will learn from real travel patterns, preferences, and experiences.
+TripFlow AI is currently in the early product development stage.
 
-Over time, TripFlow will become a truly intelligent travel platform that can:
-
-- Recommend hidden gems
-- Predict better travel routes
-- Adapt in real time
-- Save travelers hours of planning
-- Reduce travel stress
-- Create unforgettable experiences
-
-Our ambition is simple:
-
-**Build the world's smartest AI Travel Copilot.**
-
----
-
-# Contributing
-
-TripFlow AI is currently under active development.
-
-Ideas, discussions, feedback, and contributions are always welcome.
-
----
-
-# License
-
-This project is licensed under the MIT License.
+The current focus is on defining the core user experience and building the foundation for a context-aware AI travel agent.
